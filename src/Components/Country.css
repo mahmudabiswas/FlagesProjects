@@ -1,0 +1,23 @@
+.flag{
+    border: 2px solid skyblue;
+    margin: 15px;;
+    padding: 15px;
+}
+
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 10;
+}
+.img_container{
+    height: 200px;
+    width: 300px;
+}
+.visited{
+   background: yellow;
+   color: black;
+}
+.flag-container{
+    width: 100px;
+    height: 50px ;
+}
